@@ -5,9 +5,9 @@ class App extends Component {
   render() {
     return (
       <div classname="container">
-        <h1>Welcome to Messiah Search!</h1>
+        <h1>Welcome to ChurchSearch!</h1>
         <img src = "church.jpeg" className ="App-logo" />
-        <p>I just created my first React App</p>
+        <p>I just did this as a test</p>
       </div>
     );
   }
