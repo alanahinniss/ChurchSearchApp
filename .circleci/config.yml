@@ -2,10 +2,10 @@ version: 2
 jobs:
   build:  
     docker:
-      - image: circleci/node:14
+      - image: circleci/node:16
     steps:
       - checkout
-
+      
       # Download and cache dependencies
       - restore_cache:
           keys:
